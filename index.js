@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './Home';
-import DishClass from './DishClass';
+import './index.css';
+import Movielist from './Movielist';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-  <Home></Home>
-  <DishClass></DishClass>
-   
-  </React.StrictMode>
+  <div>
+<Movielist></Movielist>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
