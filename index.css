@@ -1,0 +1,25 @@
+.dish{
+   margin:10px;
+  padding:10px;
+  float:left;
+  h3{
+    font-weight:bold;
+    text-align:left;
+  }
+}
+button{
+  background-color: blue;
+  color:antiquewhite;
+}
+.homepage{
+  img{
+    width:200px;
+    
+  }
+}
+.heading{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
